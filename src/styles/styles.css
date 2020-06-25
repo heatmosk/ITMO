@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block {
+    /* height: 620px; */
+}
+
+.title__block {
+    background: rgb(243, 245, 251);
+}
+
+.title {
+    padding-top: 43px;
+    padding-bottom: 40px;
+    background: #1945BA;
+    text-align: center;
+    /* height: 215px; */
+}
+
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.logo__img {
+    background-image: url("../img/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 53px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.logo__text,
+.title__header {
+    color: #fff;
+    font-weight: 300;
+}
+
+.logo__text {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.title__header {
+    font-size: 38px;
+    margin-bottom: 21px;
+}
+
+.contacts {
+    font-size: 18px;
+    color: #fff;
+}
+
+.knowledge {
+    padding-top: 107px;
+    padding-bottom: 63px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.knowledge__image {
+    width: 720px;
+    height: 450px;
+    margin-right: 80px;
+    background: url("../img/knowledge.png");
+}
+
+.knowledge__slogan {
+    width: 504px;
+    padding-top: 109px;
+    line-height: 1.2;
+    font-size: 27px;
+    text-align: right;
+}
+
+.knowledge__slogan__text {
+    margin-bottom: 85px;
+}
+
+.knowledge__request {
+    display: inline-block;
+    text-align: center;
+    margin-top: 28px;
+    padding-top: 20px;
+    width: 308px;
+    height: 53px;
+    background: rgb(240, 211, 224);
+    border: 1px solid #EC0B43;
+    cursor: pointer;
+}
+
+
+/**/
+
+.about__block {
+    padding: 115px 286px 4px 286px;
+    letter-spacing: 2px;
+}
+
+.about__block h1,
+.recommend__block h1 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about__block p {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.recommend__block {
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.recommends,
+.recommend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recommend__image {
+    display: inline-block;
+    width: 170px;
+    height: 186px;
+}
+
+.recommend__text {
+    width: 338px;
+    display: inline-block;
+    margin: 0 33px;
+    font-size: 26px;
+    text-align: justify;
+}
+
+.recommend__level {
+    background: url("../img/stairs.png");
+}
+
+.recommend__study {
+    background: url("../img/study.png");
+}
+
+
+/**/
+
+
+/* h1 {
+    text-align: center;
+} */
+
+
+/* 
+.logo {
+    background-image: url("../assets/webpack-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+} */
